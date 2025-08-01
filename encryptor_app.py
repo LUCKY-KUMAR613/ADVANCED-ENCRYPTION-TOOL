@@ -48,3 +48,15 @@ entry_text = tk.Entry(window, width=50)
 entry_text.pack()
 
 tk.Label(window, text="Enter Password:").pack()
+entry_password = tk.Entry(window, width=50, show="*")
+entry_password.pack()
+
+tk.Button(window, text="Encrypt", command=do_encrypt).pack(pady=5)
+tk.Button(window, text="Decrypt", command=do_decrypt).pack(pady=5)
+
+tk.Label(window, text="Output:").pack()
+output_text = tk.Entry(window, width=50)
+output_text.pack()
+
+window.mainloop()
+

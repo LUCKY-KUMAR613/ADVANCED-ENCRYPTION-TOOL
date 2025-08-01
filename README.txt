@@ -1,12 +1,10 @@
-AES File Encryption/Decryption Tool
------------------------------------
-1. Run main.py to open the GUI.
-2. Click 'Generate Key' to create a secret.key.
-3. Use 'Encrypt File' to secure any file.
-4. Use 'Decrypt File' to convert it back.
-5. All encrypted files are stored in: encrypted_files/
-6. All decrypted files are stored in: decrypted_files/
+Secure Encryption App - Python
 
-Requirements:
-- Python 3.x
-- pip install cryptography
+Features:
+- AES-based encryption & decryption
+- Password-protected
+- Simple GUI using Tkinter
+
+How to Run:
+1. Install dependencies: pip install -r requirements.txt
+2. Run the app: python encryptor_app.py
